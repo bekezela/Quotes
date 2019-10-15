@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<br>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="img/slide1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide3.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide4.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide5.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide6.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide7.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide8.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide9.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide10.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide11.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide12.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide13.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide14.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide15.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide16.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide17.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide18.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide19.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide20.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide21.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide22.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide23.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide24.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide25.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide26.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide27.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide28.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide29.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide30.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide31.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide32.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide33.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide34.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide35.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide36.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide37.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide38.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/slide39.jpg" style="width:100%">
+  </div>
+ </div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+</body>
+</html>
